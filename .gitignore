@@ -1,0 +1,51 @@
+# Data files
+*.csv
+*.xlsx
+*.json
+data/
+
+# Checkpoints
+*.pkl
+*.pickle
+checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Google Colab
+/content/drive/
+
+# Model artifacts
+*.joblib
+*.h5
+*.pt
+*.bin
+
+# Logs
+*.log
+logs/
